@@ -10,7 +10,7 @@ interface IOnEvents {
 }
 
 export interface ReactEChartsProps {
-  option: any; // Оставляем any, так как для работу нужные не все типизированные опции echarts
+  option: any; // We leave any, since not all typed echarts options are needed to work
   onEvents?: IOnEvents;
   style?: CSSProperties;
   settings?: echarts.SetOptionOpts;
